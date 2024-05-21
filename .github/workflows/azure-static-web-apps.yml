@@ -6,7 +6,7 @@ on:
       - main
       - staging
       - release
-      - develop/yuta/**
+      - develop/**
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
